@@ -1,0 +1,5 @@
+Para hacer este sitio de "Los mejores amigos" utilicé la mayoría de las herramientas aprendidas en este pre-work.
+En la Home, inserté una imagen ilustrativa y utilicé las herramientas de "título" de página y encabezados.También detallé colores y tamaños de letra. 
+En Nuestros servicios y precios, usé una tabla para detallarlos. No supe cómo hacer, sin embargo, para que la tabla tuviera bordes. Quedó algo desprolija.
+En Contacto, inserté un formulario con distintos tipos de elementos como cuadros de texto, desplegables de selección y checkboxes. 
+Intenté insertar "validadores" de JavaScript para que alertara de, por ejemplo, cuando no se percibe una "@" en el campo de correo electrónico, pero no me salió. 
