@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Contacto - Los mejores amigos</title>
+    </head>
+  <body>
+  <h1>Los Mejores Amigos</h1>
+<table width="100%" height="40" align="center">
+ <tbody>
+  <tr>
+   <th height="33" colspan="4" bordercolor="#B49AB4" bgcolor="#8F6B8F" scope="col">
+    <div align="center">
+     <span>
+      <a href="home.html">Home</a>
+       | 
+      <a href="quienes-somos.html">¿Quiénes somos?</a>
+       | 
+      <a href="nuestros-servicios.html">Nuestros servicios y Precios</a>
+       | 
+      <a href="contacto.html">Contacto</a>
+       | 
+     </span>
+    </div>
+   </th>
+  </tr>
+ </tbody>
+</table>
+<h2>Contacto</h2>
+<p lang="es" style="font-size: 12pt; color: auto">Estamos dispuestos a atender vuestras consultas y/o sugerencias en lo relativo a nuestros servicios, así como a confeccionar presupuestos personalizados.</p>
+<form method="post" action="miservidor.php">
+     <div>
+       <label for=”name”>Nombre y apellido:</label>
+       <input id=”name” type=”text”>
+     </div>
+<p></p>
+     <div>
+       <label for=”pets”>Mascotas (por ej.: un gato, dos perros)</label>
+       <input id=”pets” type=”text”>
+     </div>
+<p></p>
+     <div>
+       <label for=”email”>Dirección de correo electrónico:</label>
+       <input id=”email” type=”text”>
+    </div>
+<p></p>
+     <div>
+       <label for=”semanas”>(Opcional) ¿Cuántas semanas necesitarías de guardería?:</label>
+       <select id=”semanas”>
+         <option value=”0”>---------</option>
+         <option value=”1”>Menos de una</option>
+         <option value=”2”>Hasta 15 días</option>
+         <option value=”3”>Entre quince días y un mes</option>
+         <option value=”4”>Más de un mes</option>
+       </select>
+    </div>
+<p></p>
+    <div>
+       <label for=”serv”>(Opcional) ¿Qué servicios precisarías?:</label>
+         <input name=”serv” type="checkbox" value="1">Guardería</input>
+         <input name=”serv” type="checkbox" value=”2”>Higiene</input>
+         <input name=”serv” type="checkbox" value=”3”>Paseos</input>
+         <input name=”serv” type="checkbox" value=”4”>Medicación</input>
+   </div>
+<p></p>
+   <div>
+     <label for=”comentario”>Si deseas, déjanos un comentario adicional:</label>
+     <textarea id=”comentario” style="width:300px; height:30px;"></textarea>
+   </div>
+<p></p>
+   <input type=”submit” value=”Enviar”>
+</form>
+</body>
+</html>
